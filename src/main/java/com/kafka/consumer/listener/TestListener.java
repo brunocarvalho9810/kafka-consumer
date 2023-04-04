@@ -40,7 +40,7 @@ public class TestListener {
 	}
 
 	/**
-	 * Responsável por receber um objeto do tipo Person do topico "topic-1" e exibir as mensagens por meio de logs
+	 * Responsável por receber um objeto do tipo Person do topico "person-topic" e exibir as mensagens por meio de logs
 	 * @author <a href="https://github.com/brunocarvalho9810/"> Bruno Carvalho </a>
 	 */
 	@KafkaListener(topics = "person-topic", groupId = "group-1", containerFactory = "personKafkaListenerContainerFactory")
